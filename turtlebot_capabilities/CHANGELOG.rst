@@ -2,6 +2,12 @@
 Changelog for package turtlebot_capabilities
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.2 (2014-12-30)
+------------------
+
+2.3.1 (2014-12-30)
+------------------
+
 2.3.0 (2014-11-30)
 ------------------
 * Enable capabilities server for turtlebot on indigo
