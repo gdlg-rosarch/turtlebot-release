@@ -2,6 +2,16 @@
 Changelog for package turtlebot_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.2 (2014-12-30)
+------------------
+
+2.3.1 (2014-12-30)
+------------------
+* use env for rapp parsing
+* use turtlebot as envinroment variable prefixes
+* install interactions directory closes `#176 <https://github.com/turtlebot/turtlebot/issues/176>`_
+* Contributors: Jihoon Lee
+
 2.3.0 (2014-11-30)
 ------------------
 * removing unused args
