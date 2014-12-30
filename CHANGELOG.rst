@@ -2,6 +2,14 @@
 Changelog for package turtlebot_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.2 (2014-12-30)
+------------------
+
+2.3.1 (2014-12-30)
+------------------
+* Issue `#172 <https://github.com/turtlebot/turtlebot/issues/172>`_: Provide mass and inertia real values for 3D camera, stacks and poles
+* Contributors: corot
+
 2.3.0 (2014-11-30)
 ------------------
 * Check if unit-testing is enabled
