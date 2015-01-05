@@ -2,6 +2,11 @@
 Changelog for package turtlebot_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.3 (2015-01-05)
+------------------
+* add kobuki_capabilities and turtlebot_capabilities as run_depend in turtlebot_bring fixes `#184 <https://github.com/turtlebot/turtlebot/issues/184>`_
+* Contributors: Jihoon Lee
+
 2.3.2 (2014-12-30)
 ------------------
 
