@@ -2,6 +2,9 @@
 Changelog for package turtlebot_teleop
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.7 (2015-03-02)
+------------------
+
 2.3.6 (2015-02-27)
 ------------------
 * remove turtlebot_teleop library from catkin_package call closes `#192 <https://github.com/turtlebot/turtlebot/issues/192>`_
