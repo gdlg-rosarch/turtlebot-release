@@ -1,3 +1,29 @@
+## turtlebot (indigo) - 2.3.7-0
+
+The packages in the `turtlebot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release turtlebot -t indigo -r indigo` on `Mon, 02 Mar 2015 09:42:44 -0000`
+
+These packages were released:
+- `turtlebot`
+- `turtlebot_bringup`
+- `turtlebot_capabilities`
+- `turtlebot_description`
+- `turtlebot_teleop`
+
+Version of package(s) in repository `turtlebot`:
+- upstream repository: https://github.com/turtlebot/turtlebot.git
+- release repository: https://github.com/turtlebot-release/turtlebot-release.git
+- rosdistro version: `2.3.6-0`
+- old version: `2.3.6-0`
+- new version: `2.3.7-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.7`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.1`
+- vcstools version: `0.1.36`
+
+
 ## turtlebot (indigo) - 2.3.6-0
 
 The packages in the `turtlebot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release turtlebot -t indigo -r indigo` on `Fri, 27 Feb 2015 07:50:58 -0000`
