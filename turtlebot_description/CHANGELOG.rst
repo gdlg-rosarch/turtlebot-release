@@ -2,6 +2,9 @@
 Changelog for package turtlebot_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.7 (2015-03-02)
+------------------
+
 2.3.6 (2015-02-27)
 ------------------
 * add reasons for comment `#194 <https://github.com/turtlebot/turtlebot/issues/194>`_
