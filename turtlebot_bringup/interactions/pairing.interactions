@@ -86,6 +86,17 @@
     rapp: turtlebot_rapps/follower
     remappings: []
 
+- name: ""
+  role: PC Pairing
+  compatibility: rocon:/pc/*/hydro|indigo/precise|quantal|raring|saucy|trusty
+  display_name: PS3 Teleop
+  description: Control the TurtleBot with a PlayStation 3 Joystick.
+  max: 1
+  icon:
+    resource_name: turtlebot_rapps/ps3_bubble_icon.png
+  pairing:
+    rapp: turtlebot_rapps/ps3_teleop
+    remappings: []
 
 - name: turtlebot_rviz_launchers/view_navigation.launch
   role: PC Pairing
@@ -131,33 +142,42 @@
 
 - name: com.github.rosjava.android_apps.map_nav.MainActivity
   role: Android Pairing
-  compatibility: rocon:/*/*/indigo/jellybean
+  compatibility: rocon:/*/*/indigo/jellybean|kitkat
   display_name: Map Navigation 
   description: Android navigation of a known map 
   max: -1
   icon:
     resource_name: turtlebot_rapps/map_nav_bubble_icon.png
+  remappings:
+    - remap_from: cmd_vel
+      remap_to: /teleop/cmd_vel
+    - remap_from: compressed_image
+      remap_to: /teleop/compressed_image
   pairing:
     rapp: turtlebot_rapps/map_nav
-    remappings: []  
+    remappings: []
 
 
 - name: com.github.rosjava.android_apps.make_a_map.MainActivity
   role: Android Pairing
-  compatibility: rocon:/*/*/indigo/jellybean
+  compatibility: rocon:/*/*/indigo/jellybean|kitkat
   display_name: Make A Map
   description: Make a map by driving a TurtleBot from an Android device.
   max: -1
   icon:
     resource_name: turtlebot_rapps/make_a_map_bubble_icon.png
+  remappings:
+    - remap_from: cmd_vel
+      remap_to: /teleop/cmd_vel
+    - remap_from: compressed_image
+      remap_to: /teleop/compressed_image
   pairing:
     rapp: turtlebot_rapps/make_a_map
     remappings: []
 
-
 - name: com.github.turtlebot.turtlebot_android.panorama.PanoramaActivity
   role: Android Pairing
-  compatibility: rocon:/*/*/indigo/jellybean
+  compatibility: rocon:/*/*/indigo/jellybean|kitkat
   display_name: Panorama
   description: Turtlebot makes a 360 degree panorama image.
   max: -1
@@ -170,7 +190,7 @@
 
 - name: com.github.turtlebot.turtlebot_android.follower.FollowerActivity
   role: Android Pairing
-  compatibility: rocon:/*/*/indigo/jellybean
+  compatibility: rocon:/*/*/indigo/jellybean|kitkat
   display_name: Follower
   description: Take the TurtleBot for a stroll. TurtleBot will follow whatever is in front of it.
   max: -1
@@ -182,7 +202,7 @@
 
 - name: com.github.rosjava.android_remocons.listener.Listener
   role: Android Pairing
-  compatibility: rocon:/*/*/indigo/jellybean
+  compatibility: rocon:/*/*/indigo/jellybean|kitkat
   display_name: Listener
   description: A Android listener for testing pairing.
   max: -1
@@ -197,7 +217,7 @@
 
 - name: com.github.rosjava.android_apps.teleop.MainActivity
   role: Android Pairing
-  compatibility: rocon:/*/*/indigo/jellybean
+  compatibility: rocon:/*/*/indigo/jellybean|kitkat
   display_name: Teleop
   description: Teleop the TurtleBot using an Android Device
   max: -1
@@ -205,9 +225,9 @@
     resource_name: turtlebot_rapps/teleop_bubble_icon.png
   remappings:
     - remap_from: cmd_vel
-      remap_to: /cmd_vel_mux/input/teleop
+      remap_to: /teleop/cmd_vel
     - remap_from: compressed_image
-      remap_to: /camera/rgb/image_color/compressed 
+      remap_to: /teleop/compressed_image
   parameters:
       maximum_linear_velocity: 0.5
       maximum_angular_velocity: 0.75
