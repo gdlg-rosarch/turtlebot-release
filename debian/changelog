@@ -1,0 +1,126 @@
+ros-kinetic-turtlebot-teleop (2.3.12-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Mon, 27 Jun 2016 07:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.3.11-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Wed, 15 Apr 2015 07:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.3.10-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Thu, 02 Apr 2015 07:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.3.9-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Mon, 30 Mar 2015 07:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.3.8-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Mon, 23 Mar 2015 07:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.3.7-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Mon, 02 Mar 2015 08:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.3.6-0wily) wily; urgency=high
+
+  * remove turtlebot_teleop library from catkin_package call closes #192 <https://github.com/turtlebot/turtlebot/issues/192>
+  * remove old rosbuild imports no longer necessary
+  * Contributors: Jihoon Lee, Tully Foote
+
+ -- Melonee Wise <mwise@willowgarage.com>  Fri, 27 Feb 2015 08:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.3.5-0wily) wily; urgency=high
+
+  * update turtlebot_teleop url closes #188 <https://github.com/turtlebot/turtlebot/issues/188>
+  * Contributors: Jihoon Lee
+
+ -- Melonee Wise <mwise@willowgarage.com>  Mon, 12 Jan 2015 08:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.3.4-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Wed, 07 Jan 2015 08:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.3.3-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Mon, 05 Jan 2015 08:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.3.2-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Tue, 30 Dec 2014 08:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.3.1-0wily) wily; urgency=high
+
+  * add README on turtlebot_teleop to explain why it is here now fixes #182 <https://github.com/turtlebot/turtlebot/issues/182>
+  * sync package version with others packages
+  * turtlebot_teleop to be migrated to new base
+  * Contributors: Jihoon Lee
+
+ -- Melonee Wise <mwise@willowgarage.com>  Tue, 30 Dec 2014 08:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.2.4-0wily) wily; urgency=high
+
+  * Remove unnecessary dependency on cmd_vel_mux package.
+
+ -- Melonee Wise <mwise@willowgarage.com>  Mon, 14 Oct 2013 07:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.2.3-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Fri, 27 Sep 2013 07:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.2.2-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Thu, 26 Sep 2013 07:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.2.1-0wily) wily; urgency=high
+
+
+
+ -- Melonee Wise <mwise@willowgarage.com>  Mon, 23 Sep 2013 07:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.2.0-0wily) wily; urgency=high
+
+  * Add bugtracker and repo info URLs.
+  * Changelogs at package level.
+
+ -- Melonee Wise <mwise@willowgarage.com>  Fri, 30 Aug 2013 07:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.1.1-0wily) wily; urgency=high
+
+  * Add missing include_directories to the teleop build.
+  * Add absolute namespaces
+  * Rename include launcher
+  * Rationalize the use of velocity smoother: remap properly robot_cmd_vel, add comments, and avoid meaningless topic names
+
+ -- Melonee Wise <mwise@willowgarage.com>  Fri, 09 Aug 2013 07:00:00 -0000
+
+ros-kinetic-turtlebot-teleop (2.1.0-0wily) wily; urgency=high
+
+  * Catikinized
+  * Unexsistent include dir removed from package description
+
+ -- Melonee Wise <mwise@willowgarage.com>  Fri, 19 Jul 2013 07:00:00 -0000
+
+
