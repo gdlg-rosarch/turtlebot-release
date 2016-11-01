@@ -22,7 +22,7 @@
   description: Teleop the TurleBot using your keyboard
   max: -1
   icon:
-    resource_name: turtlebot_bringup/turtlebot2.png
+    resource_name: turtlebot_rapps/teleop_bubble_icon.png
 
 - name: rocon_teleop
   role: PC Pairing
@@ -78,7 +78,7 @@
   role: PC Pairing
   compatibility: rocon:/pc/*/hydro|indigo/precise|quantal|raring|saucy|trusty
   display_name: Follower 
-  description: Take the TurtleBot for a stroll. TurtleBot will follow whatever is in front of it. (Currently Broken)
+  description: Take the TurtleBot for a stroll. TurtleBot will follow whatever is in front of it.
   max: -1
   icon:
     resource_name: turtlebot_rapps/follower_bubble_icon.png
@@ -119,7 +119,7 @@
   icon:
     resource_name: turtlebot_rapps/make_a_map_bubble_icon.png
   pairing:
-    rapp: turtlebot_rapps/make_a_map
+    rapp: rocon_apps/make_a_map
     remappings: []
 
 - name: turtlebot_rviz_launchers/view_robot.launch
@@ -183,7 +183,7 @@
     - remap_from: compressed_image
       remap_to: /teleop/compressed_image
   pairing:
-    rapp: turtlebot_rapps/make_a_map
+    rapp: rocon_apps/make_a_map
     remappings: []
 
 - name: com.github.turtlebot.turtlebot_android.panorama.indigo.PanoramaActivity
