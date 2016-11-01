@@ -1,0 +1,12 @@
+Source: ros-indigo-turtlebot-capabilities
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/turtlebot_capabilities
+Standards-Version: 3.9.2
+
+Package: ros-indigo-turtlebot-capabilities
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-capabilities, ros-indigo-std-capabilities
+Description: Capabilities for the TurtleBot
