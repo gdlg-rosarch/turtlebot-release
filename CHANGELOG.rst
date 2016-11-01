@@ -2,6 +2,26 @@
 Changelog for package turtlebot_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.3.13 (2016-11-01)
+-------------------
+* Add support for Intel R200 camera
+  Added necessary launch, urdf, etc. files to
+  add support for the R200 camera in Turtlebot.
+  Updated r200 URDF to inclue proper mounting.
+  Added runtime dependency on realsense_camera package.
+* [bringup] remove outdated broken comment
+* Contributors: Daniel Stonier, Kevin C. Wells
+
+2.3.12 (2016-06-27)
+-------------------
+* update xacro usage for jade deprecations
+  comment out unused arguments generating errors
+* add support for Orbbec Astra
+* add the teleop switch script as a default input to support joystick interactive follower
+* use rocon_apps/make_a_map for make a map interaction closes `#210 <https://github.com/turtlebot/turtlebot/issues/210>`_
+* Fix icon for interactions.
+* Contributors: Jihoon Lee, Tully Foote, commaster90
+
 2.3.11 (2015-04-15)
 -------------------
 * interaction fix closes `#208 <https://github.com/turtlebot/turtlebot/issues/208>`_
