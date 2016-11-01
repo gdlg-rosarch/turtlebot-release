@@ -1,10 +1,11 @@
-# Testing Model Views
+turtlebot
+=========
 
-Test the robot descriptions via the launcher in 
-turtlebot_viz/turtlebot_rviz_launchers.
+The turtlebot stack provides all the basic drivers for running and using a [TurtleBot](http://turtlebot.com) with [ROS](http://www.ros.org).
 
-    roslaunch turtlebot_rviz_launchers view_model.launch
+ROS Wiki : (http://www.ros.org/wiki/Robots/TurtleBot)
 
-It is a standalone launcher with minimal dependencies. Comments
-on how to reconfigure your environment to view the different
-robot models are in the launcher.
+
+
+
+![TurtleBot Logo](http://www.turtlebot.com/assets/templates/turtlebot/img/turtlebot_logo.png)
