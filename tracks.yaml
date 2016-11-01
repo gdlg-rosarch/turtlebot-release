@@ -54,7 +54,7 @@ tracks:
       -i :{release_inc} --os-name debian --os-not-required
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
-    devel_branch: indigo
+    devel_branch: kinetic
     last_version: 2.3.12
     name: turtlebot
     patches: null
