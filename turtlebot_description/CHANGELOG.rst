@@ -2,16 +2,12 @@
 Changelog for package turtlebot_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.4.2 (2016-12-22)
-------------------
+2.3.14 (2016-12-22)
+-------------------
 * update astra urdf by Turtlebot REP (`#248 <https://github.com/turtlebot/turtlebot/issues/248>`_)
   * update astra urdf by Turtlebot REP
   * update astra urdf
   * Update astra.urdf.xacro
-* Contributors: hcjung
-
-2.4.1 (2016-12-22)
-------------------
 * Update R200 URDF
   The name of the camera link has been changed to
   conform to the common standard.
@@ -25,10 +21,10 @@ Changelog for package turtlebot_description
   the data common to all turtlebot configurations, and modified
   each robot configuration file to include only the additional base,
   stacks, and sensor urdf files that apply.
-* Contributors: Kevin C. Wells
+* Contributors: Kevin C. Wells, hcjung
 
-2.4.0 (2016-11-01)
-------------------
+2.3.13 (2016-11-01)
+-------------------
 * Fix image format on Gazebo using B8G8R8
   Related to https://github.com/ros-simulation/gazebo_ros_pkgs/issues/484
 * Add support for Intel R200 camera

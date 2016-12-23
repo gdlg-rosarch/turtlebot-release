@@ -2,11 +2,8 @@
 Changelog for package turtlebot_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.4.2 (2016-12-22)
-------------------
-
-2.4.1 (2016-12-22)
-------------------
+2.3.14 (2016-12-22)
+-------------------
 * Modify R200 launch file.
   Modified the R200 3D sensor launch file
   to conform more closely to the other
@@ -28,26 +25,24 @@ Changelog for package turtlebot_bringup
   moved to the common, higher-level mobile_base.launch.xml.
   The mobile_base_nodelet_manager has been moved up to facilitate
   this change.
+* Remove concert reference to mobile_base.launch
+  Added mobile_base.launch.xml back in for backward compatability
+  with deprecation message.
 * Remove unnecessary mobile_base.launch.xml layer
   mobile_base.launch.xml currently is just a pass-through to
   include the TURTLEBOT_BASE-specific launch file.  Simply
   removed this unnecessary layer.
 * Contributors: Kevin C. Wells
 
-2.4.0 (2016-11-01)
-------------------
+2.3.13 (2016-11-01)
+-------------------
 * Add support for Intel R200 camera
   Added necessary launch, urdf, etc. files to
   add support for the R200 camera in Turtlebot.
   Updated r200 URDF to inclue proper mounting.
   Added runtime dependency on realsense_camera package.
 * [bringup] remove outdated broken comment
-* refactor concert content out of minimal and create separate concert_minimal.launch
-  The concert_minimal.launch includes minmal.launch
-* propagate netbook battery to other similar launch file
-* disable the battery node if TURTLEBOT_BATTERY is set to None
-  Fixes `#224 <https://github.com/turtlebot/turtlebot/issues/224>`_
-* Contributors: Daniel Stonier, Kevin C. Wells, Tully Foote
+* Contributors: Daniel Stonier, Kevin C. Wells
 
 2.3.12 (2016-06-27)
 -------------------
