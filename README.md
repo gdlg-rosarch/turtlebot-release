@@ -1,3 +1,31 @@
+## turtlebot (kinetic) - 2.4.2-0
+
+The packages in the `turtlebot` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release turtlebot -r kinetic -t kinetic` on `Fri, 23 Dec 2016 00:59:44 -0000`
+
+These packages were released:
+- `turtlebot`
+- `turtlebot_bringup`
+- `turtlebot_capabilities`
+- `turtlebot_description`
+- `turtlebot_teleop`
+
+Version of package(s) in repository `turtlebot`:
+
+- upstream repository: https://github.com/turtlebot/turtlebot.git
+- release repository: https://github.com/turtlebot-release/turtlebot-release.git
+- rosdistro version: `2.4.0-0`
+- old version: `2.4.0-0`
+- new version: `2.4.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## turtlebot (indigo) - 2.3.13-0
 
 The packages in the `turtlebot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release turtlebot -r indigo -t indigo` on `Tue, 01 Nov 2016 22:29:57 -0000`
